@@ -164,7 +164,7 @@ function swapMinMax(array) {
     if (array[i] > max) {
       max = array[i];
       maxIndex = i;
-    } else if (array[i] < max) {
+    } else if (array[i] < min) {
       min = array[i];
       minIndex = i;
     }
